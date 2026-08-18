@@ -76,26 +76,66 @@ Trackline demonstrates **JWT authentication, project-scoped RBAC, Express middle
 
 ---
 
-## ⭐ Featured Work
+## ⭐ Featured Projects
 
-### 🧠 MambaFER — Efficient Facial Expression Recognition
+### 01 · 🔐 Semaphore — Privacy-First File Transfer
 
-- Vision Mamba / state-space modeling for long-range visual features
+A privacy-first file-transfer web app that can move files between two devices using **sound, light, or an online WebRTC link**.
+
+- OFDM audio modem with synchronization and error-corrected frames
+- Screen/camera light transfer and QR-based pairing
+- WebRTC data-channel link mode
+- **X25519 key exchange + XChaCha20-Poly1305** end-to-end encryption
+- Chunking, compression, CRC32 verification and retransmission
+- React 18 + TypeScript + Vite + Zustand + libsodium + PWA
+
+> **Repository status:** This project is **private/unreleased and not intended for public release** at present.
+
+🔗 [View repository →](https://github.com/rohanmj99/semaphore)
+
+---
+
+### 02 · 🛤️ Trackline — Team Task Manager
+
+A full-stack project/task manager with **real server-side role-based access control**.
+
+- React + Vite frontend
+- Express REST API
+- PostgreSQL + Sequelize
+- JWT authentication
+- Project-scoped Admin/Member roles
+- Authorization enforced in backend middleware
+- Tailwind CSS UI
+
+**Stack:** React · Vite · Node.js · Express · PostgreSQL · Sequelize · Tailwind CSS · JWT
+
+🔗 [View Trackline →](https://github.com/rohanmj99/team-task-manager)
+
+---
+
+### 03 · 🧠 MambaFER — Efficient Facial Expression Recognition
+
+My flagship AI/research project using **Vision Mamba / state-space modeling** for facial-expression recognition.
+
 - **IR50** facial feature extractor + **MobileFaceNet** landmark detector
 - Multiscale feature extraction with pairwise **window-based cross-attention**
 - Feature fusion followed by **8 Vision Mamba blocks**
 - **91.2% Top-1 accuracy on RAF-DB** in my CV
-- Automated hyperparameter experiments across learning rate, dropout, drop path, optimizer momentum and LR schedulers
+- Automated experiments across learning rate, dropout, drop path, optimizer momentum and LR schedulers
 
-**Stack:** Python · PyTorch · TensorFlow · Hugging Face · Transformers · OpenCV · NumPy · Pandas · Scikit-learn · Matplotlib · Seaborn · Deep Learning
+**Stack:** Python · PyTorch · TensorFlow · Hugging Face · Transformers · OpenCV · NumPy · Pandas · Scikit-learn · Matplotlib · Seaborn · Deep Learning · Machine Learning
 
-🔗 [View MambaFER →](https://github.com/rohanmj99/MambaFER)
+📄 **[Research Paper →](https://drive.google.com/file/d/1s3DfC2Boc_LzDwWYaktyT8CnSOeUsj5h/view?usp=sharing)**
+
+> **Model release note:** The trained MambaFER model is **not for public release**. The paper is provided for reference and research context.
+
+🔗 [View MambaFER repository →](https://github.com/rohanmj99/MambaFER)
 
 ---
 
-### 🤖 AI Job Screening System
+### 04 · 🤖 AI Job Screening System
 
-An AI-assisted recruitment workflow that analyzes job descriptions and resumes, calculates candidate/job fit, ranks candidates and supports interview scheduling.
+An AI-assisted recruitment workflow that analyzes job descriptions and resumes, scores candidate/job fit, ranks candidates and supports interview scheduling.
 
 - Multi-agent AI architecture
 - PDF/DOCX document parsing
@@ -110,7 +150,7 @@ An AI-assisted recruitment workflow that analyzes job descriptions and resumes, 
 
 ---
 
-### ☕ Job Portal Web Application
+### 05 · ☕ Job Portal Web Application
 
 A full-stack Java application built around secure recruiter/applicant workflows.
 
@@ -123,25 +163,7 @@ A full-stack Java application built around secure recruiter/applicant workflows.
 
 **Stack:** Java · Spring Boot · Spring MVC · Spring Security · Hibernate/JPA · Thymeleaf · REST APIs · MySQL · Maven
 
-🔗 [Explore my repositories →](https://github.com/rohanmj99?tab=repositories)
-
----
-
-### 🛤️ Trackline — Team Task Manager
-
-A modern full-stack task/project manager with **real server-side RBAC**, not UI-only authorization.
-
-- React + Vite frontend
-- Express REST API
-- PostgreSQL + Sequelize
-- JWT authentication
-- Project-scoped Admin/Member roles
-- Backend middleware enforcing authorization on every request
-- Tailwind CSS UI
-
-**Stack:** React · Vite · Node.js · Express · PostgreSQL · Sequelize · Tailwind CSS · JWT
-
-🔗 [View Trackline →](https://github.com/rohanmj99/team-task-manager)
+🔗 [Explore all repositories →](https://github.com/rohanmj99?tab=repositories)
 
 ---
 
@@ -154,6 +176,7 @@ A modern full-stack task/project manager with **real server-side RBAC**, not UI-
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
 ### Backend & APIs
 
@@ -264,18 +287,10 @@ I have hands-on experience with UI/API automation, Agile testing workflows, bug 
 
 ## 📈 GitHub Activity
 
-<table align="center">
-<tr>
-<td align="center" width="25%"><strong>🧠 AI / ML</strong><br/>MambaFER<br/>AI Job Screening</td>
-<td align="center" width="25%"><strong>☕ Backend</strong><br/>Spring Boot<br/>REST APIs</td>
-<td align="center" width="25%"><strong>🌐 Full-Stack</strong><br/>React<br/>Node.js · PostgreSQL</td>
-<td align="center" width="25%"><strong>🧪 Automation</strong><br/>Selenium<br/>API Testing · CI/CD</td>
-</tr>
-</table>
-
-<p align="center">
-  <a href="https://github.com/rohanmj99?tab=repositories">Browse all repositories →</a>
-</p>
+<div align="center">
+  <img src="./profile/stats.svg" height="180" alt="GitHub stats" />
+  <img src="./profile/top-langs.svg" height="180" alt="Top languages" />
+</div>
 
 ---
 
@@ -283,38 +298,57 @@ I have hands-on experience with UI/API automation, Agile testing workflows, bug 
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rohanmj99/rohanmj99/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rohanmj99/rohanmj99/output/github-snake.svg" />
-    <img width="100%" alt="GitHub contribution snake" src="https://raw.githubusercontent.com/rohanmj99/rohanmj99/output/github-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rohanmj99/rohanmj99/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rohanmj99/rohanmj99/output/github-contribution-grid-snake.svg" />
+    <img width="100%" alt="GitHub contribution snake" src="https://raw.githubusercontent.com/rohanmj99/rohanmj99/output/github-contribution-grid-snake.svg" />
   </picture>
 </p>
 
-> The Snake is generated automatically from my contribution graph by GitHub Actions.
+> The animation is generated automatically from my GitHub contribution graph and refreshed by GitHub Actions.
 
 ---
 
-## 🎓 Education & Experience
+## 🎓 Education
 
-**Master of Technology — Computer Science** · University of Hyderabad · **8.30 CGPA**  
-**Bachelor of Engineering — Computer Science & Engineering** · Jadavpur University · **7.62 CGPA**
+### AUG 2023 – MAY 2025
+**Master of Technology in Computer Science** · University of Hyderabad · **8.30 CGPA** · [Final Degree](https://drive.google.com/file/d/1H9UZ29YUzXfVNT5Bl6suERxjDOAvUV02/view?usp=sharing)
 
-**QEA Automation Engineer — Cognizant**  
-Java · Selenium · Cucumber · TestNG · Postman · Rest-Assured · Jenkins · Docker · GenAI
+Relevant subjects: Banking Technology and Payment Systems, System Security, Network Security, Biometrics, Virtualization, Cryptography, Advanced Operating Systems.
 
-**Student System Administrator — AI Lab, University of Hyderabad**  
-100+ Linux systems · NIS · NFS · networking · Bash/Python · SSH · live technical support
+### SEP 2018 – JUNE 2022
+**Bachelor of Engineering in Computer Science and Engineering** · Jadavpur University · **7.62 CGPA** · [Final Degree](https://drive.google.com/file/d/19oFXNPA0yYzSQBcYlY1bVsUP7wz97xR7/view?usp=sharing)
+
+Relevant subjects: Software Engineering, Machine Learning, NLP, Deep Learning, AI, DBMS, Compiler Design, Computer Graphics, Computer Architecture, Hardware Design, Microprocessor.
 
 ---
 
-## 💼 Open to Opportunities
+## 💼 Internships & Experience
 
-I am interested in **Software Development, Backend Engineering, AI Engineering, Full-Stack Development and AI-integrated product roles** where I can combine strong software fundamentals with practical AI/ML experience.
+### MAY 2025 – SEPT 2025 · QEA Automation Engineer — Cognizant
+
+**Virtual Internship** · [Internship Completion Letter](https://drive.google.com/file/d/1GjPjKkTazYMo_uUxRUzXnek_pUH0tp-U/view?usp=sharing)
+
+Java · Selenium · Cucumber · TestNG · Apache POI · Postman · Rest-Assured · Maven · Jira · Zephyr · Jenkins · Git · Docker · GenAI
+
+Developed and executed manual and automated test suites using hybrid frameworks for front-end UI and back-end APIs across four Agile sprints. Managed the full testing and bug lifecycle, integrated automated tests into CI/CD, containerized test environments and applied Generative AI to accelerate testing.
+
+### AUGUST 2024 – JUNE 2025 · Student System Administrator — AI Lab, SCIS, University of Hyderabad
+
+[Service Certificate](https://drive.google.com/file/d/1VNrDq9Ih9vDR15HDz8IS4uzYgls2TWiV/view?usp=sharing)
+
+Unix/Linux · Windows · NIS · NFS · TCP/IP · DNS · DHCP · Bash · Python · SSH
+
+Managed and maintained 100+ Linux-based desktops in a high-traffic research lab. Configured and deployed NIS and NFS servers and clients for centralized authentication and file sharing, and provided critical live support during examination periods.
+
+---
+
+## 📬 Contact
+
+I am interested in **Software Development, Backend Engineering, AI Engineering, Full-Stack Development and AI-integrated product roles**.
 
 <p align="center">
   <a href="mailto:rohanmj99@gmail.com"><img src="https://img.shields.io/badge/📩%20Let's%20Build%20Something%20Useful-0A66C2?style=for-the-badge" alt="Contact me" /></a>
 </p>
-
----
 
 <div align="center">
 
