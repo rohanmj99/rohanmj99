@@ -7,13 +7,13 @@
 <p>
   <a href="mailto:rohanmj99@gmail.com"><img src="https://img.shields.io/badge/Email-rohanmj99%40gmail.com-0A66C2?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://www.linkedin.com/in/rohanmj99/"><img src="https://img.shields.io/badge/LinkedIn-Rohan%20Maji-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/rohanmj99"><img src="https://img.shields.io/badge/GitHub-rohanmj99-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://github.com/rohanmj99?tab=repositories"><img src="https://img.shields.io/badge/Projects-View%20Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" /></a>
 </p>
 
 <p>
   <strong>I build software that connects reliable backend engineering with practical AI.</strong><br/>
   From Spring Boot applications and secure REST APIs to computer-vision research and AI-powered systems,
-  I enjoy turning difficult technical problems into usable products.
+  I enjoy turning difficult technical problems into useful products.
 </p>
 
 </div>
@@ -264,12 +264,18 @@ I have hands-on experience with UI/API automation, Agile testing workflows, bug 
 
 ## 📈 GitHub Activity
 
-<div align="center">
+<table align="center">
+<tr>
+<td align="center" width="25%"><strong>🧠 AI / ML</strong><br/>MambaFER<br/>AI Job Screening</td>
+<td align="center" width="25%"><strong>☕ Backend</strong><br/>Spring Boot<br/>REST APIs</td>
+<td align="center" width="25%"><strong>🌐 Full-Stack</strong><br/>React<br/>Node.js · PostgreSQL</td>
+<td align="center" width="25%"><strong>🧪 Automation</strong><br/>Selenium<br/>API Testing · CI/CD</td>
+</tr>
+</table>
 
-<img src="https://github-readme-stats.vercel.app/api?username=rohanmj99&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true" height="170" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rohanmj99&layout=compact&hide_border=true&langs_count=8" height="170" alt="Top languages" />
-
-</div>
+<p align="center">
+  <a href="https://github.com/rohanmj99?tab=repositories">Browse all repositories →</a>
+</p>
 
 ---
 
@@ -279,11 +285,11 @@ I have hands-on experience with UI/API automation, Agile testing workflows, bug 
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rohanmj99/rohanmj99/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rohanmj99/rohanmj99/output/github-snake.svg" />
-    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/rohanmj99/rohanmj99/output/github-snake.svg" />
+    <img width="100%" alt="GitHub contribution snake" src="https://raw.githubusercontent.com/rohanmj99/rohanmj99/output/github-snake.svg" />
   </picture>
 </p>
 
-> The animation is generated automatically from my GitHub contribution graph and refreshed by GitHub Actions.
+> The Snake is generated automatically from my contribution graph by GitHub Actions.
 
 ---
 
